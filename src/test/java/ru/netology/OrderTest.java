@@ -42,7 +42,7 @@ public class OrderTest {
         Thread.sleep (1000);
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Вера");
         Thread.sleep (1000);
-        driver.findElement(By.cssSelector("[data-test-id=phone] input ")).sendKeys("+7934034338");
+        driver.findElement(By.cssSelector("[data-test-id=phone] input ")).sendKeys("+79234034338");
         Thread.sleep (1000);
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         Thread.sleep (1000);
